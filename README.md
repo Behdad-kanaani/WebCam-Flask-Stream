@@ -111,10 +111,6 @@ WebCam-Flask-Stream is a lightweight webcam streaming application built with **F
 
 3. If the device's IP address changes (for example, when switching networks), the server will restart automatically, keeping the stream live.
 
-حتماً! در اینجا فقط بخش **Screenshot** که می‌خواهید به `README.md` اضافه کنید آمده است:
-
----
-
 ## License 📜
 
 This project is licensed under the **AGPL 3.0 License**. See the [LICENSE](LICENSE) file for more details.
