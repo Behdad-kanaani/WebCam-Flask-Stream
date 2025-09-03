@@ -9,7 +9,7 @@ WebCam-Flask-Stream is a lightweight webcam streaming application built with **F
 - **Optimized Performance**: The video stream is resized to **640x480** to ensure smooth performance, especially when running on mobile devices via **Pydroid 3**. 📱
 - **Cross-Platform Support**: Works on Android (Pydroid 3), Windows, Linux, and macOS. 🖥️
 
-![License](https://img.shields.io/github/license/Behdad-kanaani/WebCam=Flask-Stream?style=flat-square)
+![License](https://img.shields.io/github/license/Behdad-kanaani/WebCam-Flask-Stream?style=flat-square)
 ![Python Version](https://img.shields.io/badge/python-3.x-blue?style=flat-square)
 ![OpenCV](https://img.shields.io/badge/OpenCV-%2B%20MJPEG-brightgreen?style=flat-square)
 
@@ -46,10 +46,17 @@ WebCam-Flask-Stream is a lightweight webcam streaming application built with **F
    http://<your-ip-address>:5000/video
    ```
 
-   Replace `<your-ip-address>` with the IP address of your Android device. To find your IP address in Pydroid 3's terminal, use:
 
+   Replace `<your-ip-address>` with the IP address of your Android device. You can find your IP address in **Pydroid 3's terminal** by running:
+   
    ```bash
    ip addr show
+   ```
+   
+   Alternatively, the IP address is also shown in the Flask server logs when the server starts, in the message that says something like:
+   
+   ```
+   * Running on http://<your-ip-address>:5000/ (Press CTRL+C to quit)
    ```
 
 ### **Setting up on Windows, Linux, or macOS**
@@ -58,8 +65,8 @@ WebCam-Flask-Stream is a lightweight webcam streaming application built with **F
    Clone or download the ZIP file and extract it:
 
    ```bash
-   git clone https://github.com/Behdad-kanaani/WebCam=Flask-Stream.git
-   cd WebCam=Flask-Stream
+   git clone https://github.com/Behdad-kanaani/WebCam-Flask-Stream.git
+   cd WebCam-Flask-Stream
    ```
 
 2. **Install Dependencies**:
