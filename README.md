@@ -20,7 +20,7 @@ WebCam-Flask-Stream is a lightweight webcam streaming application built with **F
 1. **Clone or Download the Repository**:
    Clone the repo using Git, or download the ZIP file and extract it:
 
-   ```bash
+```bash
    git clone https://github.com/Behdad-kanaani/WebCam-Flask-Stream.git
    cd WebCam-Flask-Stream
 ````
