@@ -1,4 +1,4 @@
-# WebCam=Flask-Stream 🎥
+# WebCam-Flask-Stream 🎥
 
 WebCam-Flask-Stream is a lightweight webcam streaming application built with **Flask**. This app streams real-time video from your webcam in **MJPEG format**, ideal for low-latency live streaming. It is **fully optimized for use on Android devices** with **Pydroid 3**, but can also run on other platforms such as **Windows**, **Linux**, and **macOS**. The app automatically monitors IP changes and restarts the Flask server if the IP changes, ensuring uninterrupted streaming. 🚀
 
